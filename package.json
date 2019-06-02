@@ -1,0 +1,24 @@
+{
+  "name": "show-case",
+  "version": "1.0.0",
+  "description": "Node Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build-css": "node-sass --include-path scss src/scss/common.scss   src/css/common.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teotiaashish/show-case.git"
+  },
+  "author": "Ashish Teotia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teotiaashish/show-case/issues"
+  },
+  "homepage": "https://github.com/teotiaashish/show-case#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^4.12.0"
+  }
+}
